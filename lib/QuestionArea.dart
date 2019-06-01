@@ -22,7 +22,7 @@ class QuestionArea extends StatelessWidget {
             ),
             actions: <Widget>[
               FlatButton(
-                child: Text('Confirm'),
+                child: Text('Add'),
                 onPressed: () {
                   Navigator.push(
                     context,
