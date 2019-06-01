@@ -18,7 +18,7 @@ class login extends StatelessWidget {
         ),
         child: Center(
           child: RaisedButton(
-              child: Text("Login here"),
+              child: Text("Sign in with google"),
               color: Colors.green,
               onPressed: () {
                 Navigator.push(
