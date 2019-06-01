@@ -23,6 +23,33 @@ class Jobfinder extends StatelessWidget {
                 ),
               ),
             ),
+            ListTile(
+              title: Text("Quality assuarance Engineer"),
+              trailing: Text(
+                "Apply",
+                style: TextStyle(
+                  color: Colors.green,
+                ),
+              ),
+            ),
+            ListTile(
+              title: Text("Business Analyst"),
+              trailing: Text(
+                "Apply",
+                style: TextStyle(
+                  color: Colors.green,
+                ),
+              ),
+            ),
+            ListTile(
+              title: Text("Network Engineer"),
+              trailing: Text(
+                "Apply",
+                style: TextStyle(
+                  color: Colors.green,
+                ),
+              ),
+            ),
           ],
         ),
       ),

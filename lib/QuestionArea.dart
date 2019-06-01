@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 class QuestionArea extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
     Future<void> _add() async {
       return showDialog<void>(
         context: context,
@@ -36,7 +35,6 @@ class QuestionArea extends StatelessWidget {
       );
     }
 
-
     return Scaffold(
       appBar: AppBar(
         title: Text(
@@ -46,10 +44,26 @@ class QuestionArea extends StatelessWidget {
         backgroundColor: Colors.black,
       ),
       body: Container(
-        child: ListTile(
-          title: Text("What is statelesswidget in dart"),
-          trailing: Icon(Icons.reply),
-          onTap: () {},
+        child: Column(
+          children: <Widget>[
+            Padding(padding: EdgeInsets.all(6.0)),
+            ListTile(
+              title: Text("What is statelesswidget in flutter"),
+              trailing: Icon(Icons.reply,color: Colors.brown,),
+              onTap: () {},
+            ),
+            ListTile(
+              title: Text("How does flutter works with firestore"),
+              trailing: Icon(Icons.reply,color: Colors.brown,),
+              onTap: () {},
+            ),
+            ListTile(
+              title: Text("How to connect apis with flutter"),
+              trailing: Icon(Icons.reply,color: Colors.brown,),
+              onTap: () {},
+            ),
+          ],
+//
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
@@ -62,8 +76,4 @@ class QuestionArea extends StatelessWidget {
       ),
     );
   }
-
-
 }
-
-
