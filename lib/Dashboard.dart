@@ -1,4 +1,5 @@
 import 'package:ff/Jobfinder.dart';
+import 'package:ff/Mentorboard.dart';
 import 'package:ff/QuestionArea.dart';
 import 'package:ff/Timeline.dart';
 import 'package:flutter/material.dart';
@@ -54,7 +55,7 @@ class Dashboard extends StatelessWidget {
                 onTap: (){
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Dashboard()),
+                    MaterialPageRoute(builder: (context) => Mentorboard()),
                   );
                 },
               ),

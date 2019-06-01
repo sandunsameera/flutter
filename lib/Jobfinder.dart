@@ -26,6 +26,8 @@ class Jobfinder extends StatelessWidget {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton.extended(
+          onPressed: () {}, icon: Icon(Icons.add), label: Text("Add CV")),
     );
   }
 }
