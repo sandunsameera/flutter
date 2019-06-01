@@ -10,7 +10,7 @@ class Mentorboard extends StatelessWidget {
         barrierDismissible: false, // user must tap button!
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text('Add your question'),
+            title: Text('Describe apbout your project'),
             content: SingleChildScrollView(
               child: ListBody(
                 children: <Widget>[
@@ -22,7 +22,7 @@ class Mentorboard extends StatelessWidget {
             ),
             actions: <Widget>[
               FlatButton(
-                child: Text('Add'),
+                child: Text('Apply'),
                 onPressed: () {
                   Navigator.push(
                     context,
